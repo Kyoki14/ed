@@ -7,7 +7,8 @@ public class Persona {
     String dni;
     String nombre;   
     
-    public Persona(String dni, String nombre, String primer_apellido, String segundo_apellido) {
+    public Persona(String primer_apellido, 
+        String segundo_apellido, String nombre, String dni) {
         
         this.primer_apellido = primer_apellido;
         this.segundo_apellido = segundo_apellido;
